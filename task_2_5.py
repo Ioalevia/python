@@ -51,4 +51,4 @@ for price in list_2:
 total_2 = ', '.join(total_1)
 print('id нового списка: ' + str(id(list_2)))
 print(total_2)
-print("5 самых дорогих товаров: " + ', '.join(total_1[0:5]))
+print("5 самых дорогих товаров: " + ', '.join(total_1[5::-1]))
